@@ -19,7 +19,7 @@ a {
 
 
 .background.gradient {
-    background: #fee440;
+    background: #d4a373;
     svg {
         position: fixed;
         top: 0;
@@ -213,7 +213,7 @@ main .profile, main .about, main .resume, main .works, main .blog, main .contact
     border-radius: 4px;
     max-width: 540px;
     margin: 0 auto;
-    background-color: #eeeee4;
+    background-color: #ffffff;
 }
 
 main .about, main .resume, main .works, main .blog, main .contact{
@@ -236,21 +236,21 @@ main .profile{
 }
 .profile-image img{
     position: relative;
-    top: -82px;
-    border-radius: 50%;
+    top: -180px;
+    border-radius: 35%;
     border: 3px solid white;
-    width: 150px;
+    width: 250px;
 }
 
 .profile-image::before{
     content: '';
     position: absolute;
-    top: -69px;
-    left: calc(50% - 78px);
-    width: 134px;
-    height: 134px;
+    top: -180px;
+    left: calc(50% - 95px);
+    width: 250px;
+    height: 250px;
     background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
-    border-radius: 100%;
+    border-radius: 35%;
 }
 
 .profile-name{
@@ -288,13 +288,16 @@ main .profile{
 
 .profile-social a{
     transition: color 0.3s ease 0s;
-    margin: 0 6px;
-    font-size: 16px;
+    margin: 0 12px;
+    font-size: 20px;
 }
 
 .profile-social a:hover{
     text-decoration: none;
     color: #2eca7f;
+}
+.knowabout{
+    color: rgb(227, 227, 227);
 }
 
 .profile-buttons{
@@ -318,12 +321,13 @@ main .profile{
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     transition: color 0.3s ease;
     line-height: 70px;
     font-size: 17px;
     font-weight: 500;
     color: #171717;
+    left: -55px;
 }
 
 
